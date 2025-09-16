@@ -8,7 +8,7 @@ class outer
         public:
         void display()
         {
-            std::cout <<"Inner class\n";
+            std::cout<<"this is inner class";
         }
     };
 };

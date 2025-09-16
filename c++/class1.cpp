@@ -1,20 +1,16 @@
 #include<iostream>
 using namespace std;
-class test
+class myclass{
+    public: 
+    void mymethod();
+};
+void myclass::mymethod()
 {
-    public:
-     int val;
-     void show()
-     {
-        cout<<"\nasd"<<val;
-     }
+    cout<<"this is my method";
 };
 int main()
 {
-    test t1,a2;
-    t1.val=9;
-    a2.val=10;
-    a2.show();
-    t1.show();
+    myclass obj;
+    obj.mymethod();
     return 0;
 }
