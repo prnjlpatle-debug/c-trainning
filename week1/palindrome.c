@@ -4,7 +4,7 @@ int main(){
     int num=123;
     int res;
     int n=num;
-    system("cls");
+     system("cls");
     while (num!=0)
 {
     int lastdigit=num%10;
