@@ -1,0 +1,5 @@
+R=int(input("Enter the radius of a circle: "))
+Area=(3.14*R*R)
+Circumference=(2*3.14*R)
+print("Area of a circle is: ",Area)
+print("Circumference of circle is: ",Circumference)
